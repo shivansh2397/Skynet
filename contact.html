@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+        body {
+            font-family: Poppins;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, black, green);
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar a.active {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .logo {
+            color: #f2f2f2;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-right: 8px;
+            /* Adjust margin as needed */
+        }
+
+        .navbar .logo h3 {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        .navbar .icon {
+            display: none;
+            color: #f2f2f2;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                display: none;
+            }
+
+            .navbar a.icon {
+                display: inline-block;
+            }
+
+            .navbar.responsive a {
+                display: block;
+                text-align: left;
+            }
+
+            .navbar.responsive {
+                flex-direction: column;
+            }
+
+            .navbar .logo {
+                order: -1;
+                /* Move the logo to the left in responsive mode */
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar.responsive {
+                position: relative;
+            }
+
+            .navbar.responsive a.icon {
+                position: absolute;
+                right: 15px;
+                top: 15px;
+            }
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Contact - Skynet Travels and Tours</title>
+    <!-- <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'> -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Navbar -->
+
+
+    <div class="navbar" id="myNavbar">
+        <div class="logo">
+            <img src="222 (Custom) (2).jpeg" alt="Your Logo">
+            <h4>Skynet Travels &nbsp; &nbsp; <br> and Tours Pvt. Ltd</h4>
+        </div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="hajj.html">Hajj</a>
+            <a href="umrah.html">Umrah</a>
+            <a href="tours.html">Tours</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            &#9776;
+        </a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+
+
+    <h1 class="pt-3 pb-3 text-center">Contact us</h1>
+    <div class="container text-center d-flex">
+        <iframe <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.809076710654!2d77.22655098699286!3d28.63548372120953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd2f9ba7350d%3A0xbaf21a09528724ee!2sDSIDC%20COMPLEX%2C%20DDA%20FLATS-3%2C%20Farsh%20Wali%20Gali%2C%20Press%20Enclave%2C%20Barakhamba%2C%20Delhi%2C%20110002!5e0!3m2!1sen!2sin!4v1704876503455!5m2!1sen!2sin"
+            width="1320" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h1 class="text-center mt-5">Visit us at</h1>
+
+
+
+
+
+    <div class="container mb-5">
+        <div class="card border-0 rounded-0">
+            <div class="card-body text-center">
+                <h5 class="card-title"><u><b>Corporate Office</b></u></h5>
+                <p class="card-text">SKYNET TRAVELS & TOURS <br>
+                    <b>Address:</b> 36, DSIDC complex, Mata Sundari Marg, New Delhi - 110002 <br>
+                    <b>Call:</b> +91 7281800100 , +91 9773826101
+                    <br>
+                    <b>Email:</b> info@skynetfly.com
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="card border-0 rounded-0 ">
+            <div class="card-body text-center">
+                <h5 class="card-title"><u><b>Registered Office</b></u></h5>
+                <p class="card-text ">SKYNET TRAVELS & TOURS <br>
+                    <b>Address:</b> Ist Floor, Globe Centre, Mango Chowk, Jamshedpur - 831012 <br>
+                    <b>Call:</b> +91 9334817320, +91 7281800200, +91 7281800300, +91 7281800400, +91 7281800900 <br>
+                    <b>Email:</b> skynettrip@gmail.com, skynetpkg@gmail.com, Skynet_travels@yahoo.com
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="card border-0  ">
+            <div class="card-body text-center">
+                <h5 class="card-title "><u><b>Branch Office</b></u></h5>
+                <p class="card-text "> SKYNET TRAVELS & TOURS <br>
+                    <b>Address:</b> Maqsood Complex, Road No.-14, Old Purulia Road, Zakirnagar, Jamshedpur - 832110<br>
+                    <b>Call:</b> +91 7281800500, +91 7281800600 <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-lg-start text-muted">
+        <!-- Section: Social media -->
+        <div class="container text-center pb-3">
+            <!-- Section: Social media -->
+            <section>
+                <Strong><span>Connect with us&nbsp;&nbsp;</span></Strong>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/SkynetUmrah/"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook" /></a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/SkynetTours"><img width="48" height="48" src="https://img.icons8.com/color/48/twitterx--v1.png" alt="twitterx--v1" /></a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/skynet_travels_and_tour/"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+
+                <!-- whatsapp -->
+                <a href="https://wa.me/+919334817320"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" /></a>
+                
+                <!-- gmail -->
+                <a href="mailto:skynettrip@gmail.com"><img width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new" /></a>
+                
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/company/skynet-travels-tours/about/"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Section: Social media -->
+        <div class="pt-1" style="background-color: #167B52 ;">
+            <!-- Section: Links  -->
+            <section class="text-light">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem "></i>Skynet Travels and Tours
+                            </h6>
+                            <p>
+                                The Skynet Travels & Tours is one of the fastest growing tours & travels operators in
+                                India. You will
+                                find a team of dedicated professionals, each contributing their optimum expertise to
+                                deliver and ensure
+                                complete satisfaction of our clients.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <p>
+                                <a href="index.html" class="text-reset">Home</a>
+                            </p>
+                            <p>
+                                <a href="hajj.html" class="text-reset">Hajj</a>
+                            </p>
+                            <p>
+                                <a href="umrah.html" class="text-reset">Umrah</a>
+                            </p>
+                            <p>
+                                <a href="tours.html" class="text-reset">International and Domestic Tours</a>
+                            </p>
+                            <p>
+                                <a href="contact.html" class="text-reset">Contact us</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p> SKYNET TRAVELS & TOURS <br>GLOBE CENTRE, 1ST FLOOR, ` MANGO CHOWK, JAMSHEDPUR - 831012</p>
+                            <p>
+
+                                skynet_travels@yahoo.com
+                            </p>
+                            <p>+91 7281800100, +91 7281800700,
+                                +91 9334817320
+
+                            </p>
+                            <!-- <p><i class="fas fa-print "></i> + 01 234 567 89</p> -->
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright: Designed and Developed by
+                <strong><a class="text-reset fw-bold"  href="https://www.marketingace.in/">MarketingAce</a></strong>
+            </div>
+        </div> <!-- Copyright -->
+    </footer>
+
+    <script type='text/javascript'></script>
+
+</body>
+
+</html>
